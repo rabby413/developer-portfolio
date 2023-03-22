@@ -13,11 +13,13 @@ h1 {
 
 section {
     display: flex;
+
 }
 
 .half {
     width: 50%;
     padding-left: 4%;
+    margin-top: 70px;
 }
 
 .half img {
@@ -34,6 +36,7 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+    margin-top: 10PX;
 
 }
 
@@ -41,4 +44,10 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     padding: 0px;
+}
+
+.middle {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
