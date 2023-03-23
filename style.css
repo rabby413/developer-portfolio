@@ -7,12 +7,17 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .color {
     color: orangered;
 }
 
-section {
+.con {
     display: flex;
+    margin-bottom: 150px;
 
 }
 
@@ -50,4 +55,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.half-width {
+    box-shadow: 10px 10px 45px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+}
+
+
+.exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#gorar {
+    border-left: 8px solid sandybrown;
+}
+
+#dim {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 700;
 }
